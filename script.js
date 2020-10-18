@@ -65,7 +65,25 @@ var useSpec = true
         // console.log(guaranteed)
 
         for(var i = 0; i < passLength; i ++){
-          var indexToReplace
+          generatePassword.push(randomIndex(selectedOption))
         }
-        return generatePassword() 
+        for(var i = 0; i < guaranteed.length; i++){
+        generatePassword[i] = guaranteed[i]
+        }
+        return generatePassword.join('')
     }
+    console.log(generatePassword())
+
+   
+    
+    
+    
+    //         for(var i = 0; i < passLength; i++){
+    //             generatedPassword.push(randomIndex(selectedOption))
+    //         }
+    //         for(var i = 0; i < guaranteed.length; i++){
+    //             generatedPassword[i] = guaranteed[i]
+    //         }
+    //         return generatedPassword.join('')
+    //     }
+    //     console.log(generatePassword())
