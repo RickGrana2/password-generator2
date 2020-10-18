@@ -1,11 +1,10 @@
 # password-generator2
-// Assignment Code (L1)
+// Assignment Code
 
-// Write password to the #password input(L4)
+// Write password to the #password input
 
-// Add event listener to generate button(L13)
+// Add event listener to generate button
 
 // Array of numberic characters to be included in password
 
 // Array of lowercase characters to be included in password
-// var lowerCasedCharacters = numbericCharacter

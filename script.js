@@ -19,7 +19,6 @@ var specialChar=["`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-"
 var numbers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
-
 var passLength = 10
 var useUpper = true
 var useLower = true
@@ -74,16 +73,4 @@ var useSpec = true
     }
     console.log(generatePassword())
 
-   
-    
-    
-    
-    //         for(var i = 0; i < passLength; i++){
-    //             generatedPassword.push(randomIndex(selectedOption))
-    //         }
-    //         for(var i = 0; i < guaranteed.length; i++){
-    //             generatedPassword[i] = guaranteed[i]
-    //         }
-    //         return generatedPassword.join('')
-    //     }
-    //     console.log(generatePassword())
+  
