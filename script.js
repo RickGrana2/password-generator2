@@ -1,6 +1,7 @@
+// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
+// Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -9,6 +10,7 @@ function writePassword() {
 
 }
 
+// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 var lowerCase=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -18,52 +20,52 @@ var numbers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 
-// var passLength = 10
-// var useUpper = true
-// var useLower = true
-// var useNumbers = true
-// var useSpec = true
+var passLength = 10
+var useUpper = true
+var useLower = true
+var useNumbers = true
+var useSpec = true
 
-//     function randomIndex(arr) {
-//       return arr[Math.floor(Math.random() * arr.
-//         length)]
-//     }
+    function randomIndex(arr) {
+      return arr[Math.floor(Math.random() * arr.
+        length)]
+    }
 
-//     function generatePassword() {
-//         var selectedOption = []
-//         var generatePassword = []
-//         var guaranteed = []
+    function generatePassword() {
+        var selectedOption = []
+        var generatePassword = []
+        var guaranteed = []
 
-//         if (useUpper) {
-//            selectedOption = selectedOption.concat
-//            (upperCasedCharacters)
-//            guaranteed.push(randomIndex
-//            (upperCasedCharacters))
-//         }
-//         if (useLower) {
-//            selectedOption = selectedOption.concat
-//            (lowerCasedCharacters)
-//            guaranteed.push(randomIndex
-//            (lowerCasedCharacters))
-//         }
-//         if (useUpper) {
-//            selectedOption = selectedOption.concat
-//            (upperCasedCharacters)
-//            guaranteed.push(randomIndex
-//            (upperCasedCharacters))
-//         }
-//         if (useUpper) {
-//            selectedOption = selectedOption.concat
-//            (upperCasedCharacters)
-//            guaranteed.push(randomIndex
-//            (upperCasedCharacters))
-//         }
+        if (useUpper) {
+           selectedOption = selectedOption.concat
+           (upperCase)
+           guaranteed.push(randomIndex
+           (upperCase))
+        }
+        if (useLower) {
+           selectedOption = selectedOption.concat
+           (lowerCase)
+           guaranteed.push(randomIndex
+           (lowerCase))
+        }
+        if (useSpec) {
+           selectedOption = selectedOption.concat
+           (specialChar)
+           guaranteed.push(randomIndex
+           (specialChar))
+        }
+        if (useNumbers) {
+           selectedOption = selectedOption.concat
+           (numbers)
+           guaranteed.push(randomIndex
+           (numbers))
+        }
 
-//         console.log(selectedOption)
-//         console.log(guaranteed)
+        // console.log(selectedOption)
+        // console.log(guaranteed)
 
-//         for(var i = 0; i < passLength; i ++){
-//           var indexToReplace
-//         }
-//         return generatedPassword() 
-//     }
+        for(var i = 0; i < passLength; i ++){
+          var indexToReplace
+        }
+        return generatePassword() 
+    }
